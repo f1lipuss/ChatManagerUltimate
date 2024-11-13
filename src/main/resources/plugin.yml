@@ -1,0 +1,28 @@
+name: ChatManagerUltimate
+version: 0.1
+main: main.chatmanagerultimate.ChatManagerUltimate
+api-version: '1.21'
+
+commands:
+  wycisz:
+    description: Wycisza gracza na określony czas z powodem
+    usage:
+    permission: cmu.mute
+    permission-message: Nie masz uprawnień do wyciszania graczy.
+  cmu:
+    description: "Zarządaj czatem"
+    usage: '&b&lChatManagerULTIMATE&f ×&3 Poprawne uzycie: /cmu reload/togglechat'
+
+permissions:
+  cmu.reload:
+    description: Pozwala przeładować konfigurację pluginu
+    default: op
+  cmu.mute:
+    description: Pozwala wyciszyć graczy
+    default: op
+  cmu.togglechat:
+    description: Pozwala włączać/wyłączać czat
+    default: op
+  cmu.cclear:
+    description: Pozwala wyczyścić czat
+    default: op
